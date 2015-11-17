@@ -139,10 +139,7 @@ namespace LRXTrainerTools
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int CustomActionBarTheme = 2131034112;
-			
-			// aapt resource value: 0x7f050001
-			public const int MyActionBar = 2131034113;
+			public const int MyActionBar = 2131034112;
 			
 			static Style()
 			{

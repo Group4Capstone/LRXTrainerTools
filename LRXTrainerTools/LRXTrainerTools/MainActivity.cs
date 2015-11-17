@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace LRXTrainerTools
 {
-	[Activity (Label = "LRX Trainer Tools", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/CustomActionBarTheme")]
+	[Activity (Label = "LRX Trainer Tools", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/MyActionBar")]
 	public class MainActivity : Activity
 	{
 
