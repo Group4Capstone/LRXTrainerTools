@@ -54,6 +54,7 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
+    <None Include="Resources.resx" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -63,6 +64,11 @@
     <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\stopwatch.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\metronomeIcon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\stopwatchIcon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\selector.xml" />
+    <AndroidResource Include="Resources\values\Theme.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
