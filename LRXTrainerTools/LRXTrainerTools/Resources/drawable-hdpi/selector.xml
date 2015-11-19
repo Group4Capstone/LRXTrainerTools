@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<selector xmlns:p1="http://schemas.android.com/apk/res/android">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-	<item p1:state_pressed="true" >
+	<item android:state_pressed="true" >
 		<shape>	
-			<solid p1:color="#323298" />
+			<solid android:color="#323298" />
 		</shape>
 	</item>
 
-	<item p1:state_focused="true" >
+	<item android:state_focused="true" >
 		<shape>	
-			<solid p1:color="#0000B2" />
+			<solid android:color="#0000B2" />
 		</shape>
 	</item>
 
 	<item>
 		<shape>	
-			<solid p1:color="#00007F" />
+			<solid android:color="#00007F" />
 		</shape>
 	</item>
 

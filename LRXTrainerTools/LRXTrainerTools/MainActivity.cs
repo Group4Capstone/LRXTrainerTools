@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace LRXTrainerTools
 {
-	[Activity (Label = "LRX Trainer Tools", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/MyActionBar")]
+	[Activity (Label = "LRX Trainer Tools", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/CustomActionBarTheme")]
 	public class MainActivity : Activity
 	{
 
@@ -17,13 +17,11 @@ namespace LRXTrainerTools
 		{
 			base.OnCreate (bundle);
 
-			ActionBar.SetDisplayShowHomeEnabled (false);
-			ActionBar.SetDisplayShowTitleEnabled (false);
-			ActionBar.SetCustomView (Resource.Layout.Main);
+			ActionBar.SetCustomView (Resource.Layout.actionBar);
 			ActionBar.SetDisplayShowCustomEnabled (true);
 
 			//Set our view from the "main" layout resource
-			SetContentView(Resource.Layout.Main);
+			//SetContentView(Resource.Layout.Main);
 		}
 	}
 }

@@ -57,7 +57,6 @@
     <None Include="Resources.resx" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
@@ -69,6 +68,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\stopwatchIcon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\selector.xml" />
     <AndroidResource Include="Resources\values\Theme.xml" />
+    <AndroidResource Include="Resources\layout\actionBar.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
