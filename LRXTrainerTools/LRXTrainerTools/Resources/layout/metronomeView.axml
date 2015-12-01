@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="100">
+    <TextView
+        android:text="Volume"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp"
+        android:id="@+id/volText"
+        android:layout_marginStart="15dp"
+        android:gravity="center_vertical" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/volumeBar"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:mirrorForRtl="false" />
+    <TextView
+        android:text="Pitch"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp"
+        android:id="@+id/pitchText"
+        android:layout_marginStart="15dp"
+        android:gravity="center_vertical" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pitchBar"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+    <TextView
+        android:text="Tempo"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp"
+        android:id="@+id/tempoText"
+        android:layout_marginStart="15dp"
+        android:gravity="center_vertical" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempoBar"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_weight="70"
+        android:layout_height="0dp"
+        android:id="@+id/relativeLayout1">
+        <Button
+            android:text="Start/Stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector"
+            android:id="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:enabled="true" />
+    </RelativeLayout>
+</LinearLayout>
